@@ -169,56 +169,5 @@
 
 /* Expanded reading-path pages */
 .path-hero{padding:135px 24px 60px;text-align:center;max-width:950px;margin:auto}.path-hero h1{font-family:'Cinzel',serif;font-size:clamp(2rem,5vw,3.6rem);color:#e8d6a4}.path-hero p{max-width:760px;margin:20px auto;line-height:1.75}.path-main{max-width:1050px;margin:auto;padding:0 24px 85px}.path-intro,.path-bridge{border:1px solid rgba(205,174,106,.35);padding:25px 30px;margin:25px 0 38px;background:rgba(30,24,17,.5);line-height:1.75}.path-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(265px,1fr));gap:18px}.path-card{border:1px solid rgba(205,174,106,.28);padding:26px;background:rgba(22,18,15,.58)}.path-card h2{font-family:'Cinzel',serif;font-size:1.22rem;color:#e8d6a4;margin:14px 0}.path-card p{line-height:1.65}.path-card .path-step{letter-spacing:.1em;text-transform:uppercase;font-size:.72rem;color:#d7b877}.path-card .path-author{font-style:italic;opacity:.8}.path-card a,.path-back{color:#e4c887;text-decoration:underline;text-underline-offset:4px}.path-bridge h2{font-family:'Cinzel',serif;color:#e8d6a4}.path-back{display:inline-block;margin-top:20px}
-/* HOUSE OF LIFE — RESPONSIVE HOMEPAGE FIX */
 
-.hero {
-  box-sizing: border-box;
-  min-height: 100svh;
-  padding: 110px 20px 110px;
-  text-align: center;
-}
 
-.hero-title {
-  font-size: clamp(2.5rem, 6vw, 4.8rem);
-  line-height: 1.1;
-  max-width: 100%;
-  overflow-wrap: normal;
-}
-
-.hero-quote {
-  max-width: min(90%, 520px);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hero-down {
-  bottom: 1.2rem;
-}
-
-@media (max-width: 768px) {
-  .hero {
-    min-height: 100svh;
-    padding: 120px 16px 100px;
-  }
-
-  .hero-title {
-    font-size: clamp(2.1rem, 9vw, 3.5rem);
-    line-height: 1.1;
-  }
-
-  .hero-logo {
-    width: 180px;
-    height: 180px;
-  }
-
-  .hero-quote {
-    font-size: 1rem;
-    max-width: 90%;
-  }
-
-  .hero-dashed-ring,
-  .hero-solid-ring {
-    width: min(90vw, 380px);
-    height: min(90vw, 380px);
-  }
-}
